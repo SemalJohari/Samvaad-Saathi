@@ -10,8 +10,8 @@ can translate common phrases in sign language such as 'hello', 'sorry', 'thank y
 - [Tech-Stack](#Tech-Stack)
 - [Screenshots](#Screenshots)
 - [Installation](#Installation)
-- [Usage(local)](#Usage(local))
-- [Usage(appl)](#Usage(app))
+- [Local-Usage](#Local-Usage)
+- [App-Usage)](#App-Usage)
 
 ## Features
 
@@ -20,12 +20,12 @@ can translate common phrases in sign language such as 'hello', 'sorry', 'thank y
 ## Screenshots
 
 <p align="center">
-   <img src="https://github.com/user-attachments/assets/5f89fbca-0208-4666-b665-b84e60e73497" alt="Screenshot (19)" width="220"/>
-   <img src="https://github.com/user-attachments/assets/af803f7d-320f-43db-ae25-cdd851b93ebc" alt="Screenshot (139)" width="220"/>
-   <img src="https://github.com/user-attachments/assets/d72f1cbb-5f5a-4947-9420-18cab149e962" alt="Screenshot (194)" width="220"/>
-    <img src="https://github.com/user-attachments/assets/9f59d34a-8193-4307-9021-1b938b1e6825" alt="Screenshot (195)" width="220"/>
-   <img src="https://github.com/user-attachments/assets/f47309b3-96ec-425f-a073-e6588969526e" alt="Screenshot (196)" width="220"/>
-   <img src="https://github.com/user-attachments/assets/08f02f55-0848-4677-8264-286002dc95db" alt="Screenshot (197)" width="220"/>
+   <img src="https://github.com/user-attachments/assets/5f89fbca-0208-4666-b665-b84e60e73497" alt="Screenshot (19)" width="300"/>
+   <img src="https://github.com/user-attachments/assets/af803f7d-320f-43db-ae25-cdd851b93ebc" alt="Screenshot (139)" width="300"/>
+   <img src="https://github.com/user-attachments/assets/d72f1cbb-5f5a-4947-9420-18cab149e962" alt="Screenshot (194)" width="300"/>
+    <img src="https://github.com/user-attachments/assets/9f59d34a-8193-4307-9021-1b938b1e6825" alt="Screenshot (195)" width="300"/>
+   <img src="https://github.com/user-attachments/assets/f47309b3-96ec-425f-a073-e6588969526e" alt="Screenshot (196)" width="300"/>
+   <img src="https://github.com/user-attachments/assets/08f02f55-0848-4677-8264-286002dc95db" alt="Screenshot (197)" width="300"/>
 </p>
 
 ## Installation
@@ -49,13 +49,13 @@ Follow these steps to clone and set up the repository locally:
    ```bash
    pip install -r requirements.txt
 
-## Usage(local)
+## Local-Usage
 
 To run the project locally, start the development server or application using:
     
     python run.py
 
-## Usage(app)
+## App-Usage
 
 To run the project at using a web application with a local URL, start the 
 development server or application using:
