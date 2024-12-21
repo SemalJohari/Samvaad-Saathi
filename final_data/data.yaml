@@ -1,0 +1,12 @@
+train: ../train/images
+val: ../test/images
+
+nc: 12
+names: ['eat', 'fine', 'hello', 'help', 'ilove you', 'no', 'please', 'repeat', 'sorry', 'thank you', 'what', 'yes']
+
+roboflow:
+  workspace: myfirstworkspace-apibo
+  project: sign-language-rndkk
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/myfirstworkspace-apibo/sign-language-rndkk/dataset/3
