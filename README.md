@@ -4,6 +4,10 @@ This is a machine learning app for real-time Sign Language Detection and Transla
 built using the YOLOv5 model and implemented using PyTorch and OpenCV libraries. It 
 can translate common phrases in sign language such as 'hello', 'sorry', 'thank you', etc. 
 
+_The static web application can be accessed at [Streamlit App](https://samvaadsaathi.streamlit.app/)
+since Streamlit Cloud doesn't support webcam. For dynamic access, visit the [Installation](#Installation),
+[Local-Usage](#Local-Usage) and [App-Usage](#App-Usage) sections._
+
 ## Table of Contents
 
 - [Features](#Features)
