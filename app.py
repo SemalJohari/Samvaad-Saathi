@@ -8,10 +8,6 @@ import numpy as np
 import pathlib
 import os
 
-# Adjust pathlib for compatibility
-temp = pathlib.PosixPath
-pathlib.PosixPath = pathlib.WindowsPath
-
 st.title("Samvaad Saathi: Your Sign Language Translator")
 
 # Introduction
