@@ -30,6 +30,8 @@ sniffio
 click!=8.0.0,>=7.1
 platformdirs
 smart-open<8.0.0,>=5.2.1
+setuptools
+distutils
 ultralytics>=8.2.34  # https://ultralytics.com
 # protobuf<=3.20.1  # https://github.com/ultralytics/yolov5/issues/8012
 
