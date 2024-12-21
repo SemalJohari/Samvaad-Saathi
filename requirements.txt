@@ -1,8 +1,6 @@
 # YOLOv5 requirements
 # Usage: pip install -r requirements.txt
 
-python==3.11.9
-
 setuptools>=70.0.0
 python3-distutils
 pip==24.3.1
