@@ -82,7 +82,7 @@ To run the project locally, start the development server or application using:
 
 ## App-Usage
 
-To run the project at using a web application with a local URL, start the 
+To run the project using a web application with a local host, start the 
 development server or application using:
     
     streamlit run app.py
