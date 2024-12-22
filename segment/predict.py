@@ -1,33 +1,3 @@
-# Ultralytics YOLOv5 🚀, AGPL-3.0 license
-"""
-Run YOLOv5 segmentation inference on images, videos, directories, streams, etc.
-
-Usage - sources:
-    $ python segment/predict.py --weights yolov5s-seg.pt --source 0                               # webcam
-                                                                  img.jpg                         # image
-                                                                  vid.mp4                         # video
-                                                                  screen                          # screenshot
-                                                                  path/                           # directory
-                                                                  list.txt                        # list of images
-                                                                  list.streams                    # list of streams
-                                                                  'path/*.jpg'                    # glob
-                                                                  'https://youtu.be/LNwODJXcvt4'  # YouTube
-                                                                  'rtsp://example.com/media.mp4'  # RTSP, RTMP, HTTP stream
-
-Usage - formats:
-    $ python segment/predict.py --weights yolov5s-seg.pt                 # PyTorch
-                                          yolov5s-seg.torchscript        # TorchScript
-                                          yolov5s-seg.onnx               # ONNX Runtime or OpenCV DNN with --dnn
-                                          yolov5s-seg_openvino_model     # OpenVINO
-                                          yolov5s-seg.engine             # TensorRT
-                                          yolov5s-seg.mlmodel            # CoreML (macOS-only)
-                                          yolov5s-seg_saved_model        # TensorFlow SavedModel
-                                          yolov5s-seg.pb                 # TensorFlow GraphDef
-                                          yolov5s-seg.tflite             # TensorFlow Lite
-                                          yolov5s-seg_edgetpu.tflite     # TensorFlow Edge TPU
-                                          yolov5s-seg_paddle_model       # PaddlePaddle
-"""
-
 import argparse
 import os
 import platform
