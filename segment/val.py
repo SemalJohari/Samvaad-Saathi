@@ -1,25 +1,3 @@
-# Ultralytics YOLOv5 🚀, AGPL-3.0 license
-"""
-Validate a trained YOLOv5 segment model on a segment dataset.
-
-Usage:
-    $ bash data/scripts/get_coco.sh --val --segments  # download COCO-segments val split (1G, 5000 images)
-    $ python segment/val.py --weights yolov5s-seg.pt --data coco.yaml --img 640  # validate COCO-segments
-
-Usage - formats:
-    $ python segment/val.py --weights yolov5s-seg.pt                 # PyTorch
-                                      yolov5s-seg.torchscript        # TorchScript
-                                      yolov5s-seg.onnx               # ONNX Runtime or OpenCV DNN with --dnn
-                                      yolov5s-seg_openvino_label     # OpenVINO
-                                      yolov5s-seg.engine             # TensorRT
-                                      yolov5s-seg.mlmodel            # CoreML (macOS-only)
-                                      yolov5s-seg_saved_model        # TensorFlow SavedModel
-                                      yolov5s-seg.pb                 # TensorFlow GraphDef
-                                      yolov5s-seg.tflite             # TensorFlow Lite
-                                      yolov5s-seg_edgetpu.tflite     # TensorFlow Edge TPU
-                                      yolov5s-seg_paddle_model       # PaddlePaddle
-"""
-
 import argparse
 import json
 import os
