@@ -5,6 +5,9 @@ setuptools>=70.0.0
 pip==24.3.1
 distlib
 
+libgl1-mesa-glx
+libglib2.0-0
+
 # Base ------------------------------------------------------------------------
 gitpython>=3.1.30
 matplotlib>=3.3
