@@ -1,6 +1,3 @@
-# Ultralytics YOLOv5 🚀, AGPL-3.0 license
-"""Experimental modules."""
-
 import math
 
 import numpy as np
